@@ -1,5 +1,5 @@
 require('dotenv').config();
-const Genius = require('genius-lyrics'), Lyrics = require('song-lyrics-api'), { getLyrics } = new Lyrics(), g = new Genius.Client('rJb16gdZvaD2yctSn0PyFi10TwYXz0Rry0LAyjiA_TBDPMJoG5mR7yHGKUJ4LyGi');
+const Genius = require('genius-lyrics'), Lyrics = require('song-lyrics-api'), { getLyrics } = new Lyrics(), g = new Genius.Client('<GENIUS_CLIENT_AUTH_TOKEN>');
 module.exports = {
   name: 'lyrics',
   aliases: ['ly'],
